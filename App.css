@@ -1,0 +1,102 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+body {
+  background-color: #161515;
+  color: white;
+}
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #05c6fcaa);
+}
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+button {
+  margin-left: 10px;
+  font-weight: 800;
+}
+button:hover{
+  background-color: coral;
+}
+h1 {
+  border-radius: 10px;
+}
+ul li {
+  display: flex;
+  margin-bottom: 10px;
+  gap: 20px;
+  width: 350px;
+  border: 1px solid white;
+  padding: 5px 20px;
+  border-radius: 40px;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 20px;
+  width: 500px;
+  margin-right: 50px;
+  margin-bottom: 20px;
+  transition: all 0.4s;
+}
+.container ul li:hover {
+  transform: scale(1.2);
+  box-shadow: 0px 0px 20px palevioletred;
+  background-color: aqua;
+  color: black;
+  font-weight: 600;
+  border-radius: 5px;
+}
+
+input {
+  padding: 15px;
+  background-color: transparent;
+  border-radius: 50px;
+  border: 1px solid white;
+  font-size: 18px;
+  color: white;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+h1 button {
+  width: 120px;
+  height: 50px;
+  font-size: 18px;
+}
+
+div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 50px;
+  background-color: #161515;
+}
+.container {
+  border: 1px solid white;
+  border-radius: 10px;
+  box-shadow: 0px 0px 80px aqua;
+  width: 800px;
+}
+.container ul li button {
+  padding: 10px 20px;
+  border-radius: 40px;
+}
+
+.container ul li button:hover{
+  background-color:chartreuse;
+}
